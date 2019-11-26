@@ -1,0 +1,78 @@
+COR
+
+Overall accuracy:     68.3%
+Best SVM accuracy:    68.3%
+Best SVM parameters:  {'svm__kernel': 'linear'}
+
+Confusion matrix: 
+[[196  70]
+ [ 66 164]]
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.75      0.74      0.74       266
+           1       0.70      0.71      0.71       230
+
+   micro avg       0.73      0.73      0.73       496
+   macro avg       0.72      0.72      0.72       496
+weighted avg       0.73      0.73      0.73       496
+
+
+
+
+Overall accuracy:     58.7%
+Best KNN accuracy:    58.3%
+Best KNN parameters:  {'knn__n_neighbors': 18}
+
+Confusion matrix: 
+[[181  99]
+ [ 81 135]]
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.69      0.65      0.67       280
+           1       0.58      0.62      0.60       216
+
+   micro avg       0.64      0.64      0.64       496
+   macro avg       0.63      0.64      0.63       496
+weighted avg       0.64      0.64      0.64       496
+
+
+
+
+Overall accuracy:               59.5%
+Best Random Forest accuracy:    64.7%
+Best Random Forest parameters:  {'rf__max_depth': 9, 'rf__max_features': 'log2', 'rf__min_samples_leaf': 20}
+
+Confusion matrix: 
+[[186 102]
+ [ 76 132]]
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.71      0.65      0.68       288
+           1       0.56      0.63      0.60       208
+
+   micro avg       0.64      0.64      0.64       496
+   macro avg       0.64      0.64      0.64       496
+weighted avg       0.65      0.64      0.64       496
+
+
+Overall Naive Bayes accuracy:     70.9%
+
+Confusion matrix: 
+[[148  31]
+ [114 203]]
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.56      0.83      0.67       179
+           1       0.87      0.64      0.74       317
+
+   micro avg       0.71      0.71      0.71       496
+   macro avg       0.72      0.73      0.70       496
+weighted avg       0.76      0.71      0.71       496
